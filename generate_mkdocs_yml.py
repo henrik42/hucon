@@ -22,4 +22,4 @@ with open('docs_config.json') as json_file:
             msg = tmp.render(language=language, description=config['language'][language]['description'])
 
             with open('mkdocs-%s.yml' % language, 'w') as lang_file:
-                lang_file.write(msg)
+                lang_file.write(msg.encode('utf-8'))
