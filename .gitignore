@@ -9,3 +9,7 @@ webserver/www/exec_file.txt
 mkdocs-de.yml
 mkdocs-en.yml
 site
+\#*#
+\.#*
+*~
+
